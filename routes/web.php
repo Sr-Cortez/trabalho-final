@@ -25,7 +25,7 @@ Route::get('/contact', function () {
     return view('contact');
 });
 
-Route::get('/', function () {
+/*Route::get('/', function () {
     $nome = "Hugo";
     $idade= 28;
     $arr  = [1,2,3,4,5];
@@ -39,7 +39,7 @@ Route::get('/', function () {
             'arr'       => $arr,
             'nomes'     => $nomes,
         ]);
-});
+});*/
 
 Route::get('/produtos', function () {
     $busca = request('search');
